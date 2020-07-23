@@ -25,6 +25,10 @@ nav {
 
 }
 
+#top-nav {
+    transition: top 0.3s;
+}
+
 .navbar.navbar-expand-xl.navbar-dark .fixed-top {
     height: 10px;
 }
