@@ -449,6 +449,11 @@ h1.text-our-founder {
     }
 }
 
+.form-control {
+    font-style: italic;
+    font-weight: 800;
+}
+
 .text-footer {
     font-size: 15px;
     margin-top: -45%;
@@ -472,7 +477,8 @@ h1.text-our-founder {
 .box-input:active {
     border: none;
 }
-.newsletter-form button{
+
+.newsletter-form button {
     width: 80px;
     font-style: italic;
     font-weight: bold;
@@ -482,12 +488,14 @@ h1.text-our-founder {
     height: 50px;
     background: linear-gradient(250.38deg, #F9AD1B 5.97%, #EB832D 42.27%);
 }
-.newsletter-form input{
+
+.newsletter-form input {
     height: 50px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.25);
 }
+
 .box-input {
     font-style: italic;
     font-weight: 600;
@@ -502,9 +510,7 @@ h1.text-our-founder {
     box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.25);
 }
 
-.btn-footer {
-    
-}
+.btn-footer {}
 
 @media (min-width: 576px) {
     .btn-footer {
@@ -535,14 +541,14 @@ h1.text-our-founder {
 
 .text-copyright {
     font-size: 8px;
-    margin-left: 21%;
+    margin-left: 13%;
     font-weight: 700;
 }
 
 @media (min-width: 576px) {
     .text-copyright {
         font-size: 20px;
-        margin-left: 30%;
+        margin-left: 25%;
         margin-top: 20%;
         font-weight: 700;
     }
