@@ -225,7 +225,7 @@ h1.text-our-founder {
     color: orange;
     margin-top: 50px;
     font-weight: 700;
-    margin-left: 2%;
+    margin-left: 24%;
     margin-top: 50px;
 
 }
@@ -249,8 +249,16 @@ h1.text-our-founder {
 
 .img-about {
     margin-top: 0;
-    margin-left: 0;
+    margin-left: 5px;
     margin-bottom: 0;
+}
+
+@media (min-width: 576px) {
+    .img-about {
+        margin-top: 0;
+        margin-left: 0px;
+        margin-bottom: 0;
+    }
 }
 
 .img-about:hover {
@@ -322,7 +330,9 @@ h1.text-our-founder {
 
 .text-our-secret {
     margin-top: -10px;
-    margin-left: 30px;
+    margin-left: 90px;
+    width: 100%;
+    text-align: center;
     font-weight: 800;
     font-size: 23px;
     color: orange;
@@ -341,9 +351,10 @@ h1.text-our-founder {
 .text-food-story {
     font-weight: 750;
     font-size: 20px;
-    margin-top: 1s0px;
+    margin-top: 10px;
     color: rgba(0, 0, 0, 0.74);
-    margin-left: 30px;
+    margin-left: 110px;
+    width: 100%;
 }
 
 @media (min-width: 576px) {
@@ -416,14 +427,19 @@ h1.text-our-founder {
     font-weight: 600;
 }
 
-.btn-card {
+button.btn-card {
     margin-left: 170px;
     color: white;
     border: none;
     width: 110px;
     height: 34px;
+    cursor: pointer;
     margin-bottom: 0;
     background: linear-gradient(243.43deg, #F9AD1B 11.52%, #F37B18 81.1%);
+}
+
+button.btn-card:hover {
+    cursor: pointer;
 }
 
 .item2 {
@@ -549,7 +565,7 @@ h1.text-our-founder {
     .text-copyright {
         font-size: 20px;
         margin-left: 25%;
-        margin-top: 20%;
+        margin-top: 35%;
         font-weight: 700;
     }
 }
