@@ -414,7 +414,7 @@ h1.text-our-founder {
 
 @media (min-width: 576px) {
     .item {
-        margin-left: 900px;
+        /* margin-left: 900px; */
 
     }
 }
@@ -444,6 +444,8 @@ button.btn-card {
 
 button.btn-card:hover {
     cursor: pointer;
+    transition: 2s ease;
+    box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.25);
 }
 
 .item2 {
@@ -513,6 +515,12 @@ button.btn-card:hover {
     height: 50px;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.newsletter-form input:focus {
+    margin-bottom: 5px;
+    transition: 2s ease;
     box-shadow: 2px 12px 24px rgba(0, 0, 0, 0.25);
 }
 
@@ -563,7 +571,7 @@ button.btn-card:hover {
 .text-copyright {
     font-size: 8px;
     margin-left: 13%;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @media (min-width: 576px) {
@@ -571,6 +579,6 @@ button.btn-card:hover {
         font-size: 20px;
         margin-left: 25%;
         margin-top: 35%;
-        font-weight: 700;
+        font-weight: 600;
     }
 }
